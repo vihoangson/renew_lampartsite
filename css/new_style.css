@@ -1,0 +1,221 @@
+.new_intro{
+    background: url('images/background_top.png') center bottom no-repeat;
+}
+
+.border-banenr{
+    position: relative;
+}
+
+.box-banner h1{
+    margin:0px;
+}
+
+.border-banner {
+    margin: 0 auto;    
+    padding-top: 116px;
+    position: relative;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .img-banner{
+        background:url('http://lampart-vn.com/wp-content/uploads/2017/06/banner_top.png') center center no-repeat;
+        height: 460px;
+        width: 527px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .border-banner {
+
+        width: 1200px;
+
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .box-banner {
+        width: 600px;
+    }   
+    .img-banner{
+        background:url('http://lampart-vn.com/wp-content/uploads/2017/06/banner_top.png') center center no-repeat;
+        height: 460px;
+        width: 527px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .border-banner {
+        padding-top: 146px;
+        width: 950px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+
+    .box-banner {
+        width: 472px;
+    }
+    .new_intro {
+        height: 337px;
+    }   
+    .img-banner{
+        background: url('http://lampart-vn.com/wp-content/uploads/2017/06/banner_top.png') top right no-repeat;
+        height: 460px;
+        width: 527px;
+        position: absolute;
+        right: 0px;
+        background-size: 362px;
+        top: 0px;
+    }
+
+    .border-banner {
+        width: 782px;
+    }
+
+    .border-banner {
+        padding-top: 51px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .new_intro {
+        height: 337px;
+    }   
+    .img-banner{
+        background:none;
+        height: 0;
+        width: 0;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .border-banner {
+        /* width: 782px; */
+    }
+
+    .border-banner {
+        padding-top: 50px;
+    }
+    .box-banner {
+        margin: auto 15px;
+    }
+}
+
+
+
+/*============  ============ */
+
+.title-block{
+    background: url('images/line.png') no-repeat bottom left;
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+
+/*============  ============ */
+
+
+#block-service .ele-service a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #ccc;
+}
+#block-service .ele-service a h3{
+    margin: 0;
+    border: none;
+    margin: 0;
+    margin-bottom: 0 !important;
+    text-align: center;
+    padding: 0;
+    font-size: 13px;
+    height: 50px;
+}
+#block-service .row .col-4 {
+    background: white;
+    margin-right: 10px;
+    margin-bottom: 11px;
+}
+/*750px   970px   1170px*/
+@media (max-width: 750px) { 
+    #block-service .row .col-4 {
+        width: 100%;
+        float: left;
+    }
+    #block-service .row .col-4 a{
+        margin-right:0;
+    }    
+}
+
+@media (min-width: 750px) and (max-width: 970px) { 
+    #block-service .row .col-4 {
+        width: 48.3%;
+        float: left;
+    }
+    #block-service .row .col-4:nth-child(2n) {
+        margin-right:0;
+    }
+}
+
+@media (min-width: 970px) and (max-width: 1170px) { 
+    #block-service .row .col-4 {
+        width: 48.7%;
+        float: left;
+    }
+    #block-service .row .col-4:nth-child(2n) {
+        margin-right:0;
+    }    
+}
+
+@media (min-width: 1170px) { 
+    #block-service .row .col-4 {
+        width: 32%;
+        float: left;
+    }
+    #block-service .row .col-4:nth-child(3n) {
+        margin-right:0;
+    }
+}
+
+
+4
+#block-service .row {
+    
+margin: 0;
+    
+padding: 0;
+}
+
+#block-service .ele-service div {
+    padding: 10px;
+}
+
+/*============  ============ */
+
+.ele-staff div.img-avatar img {
+    border-radius: 100%;
+}
+.ele-staff{
+    float: left;
+    width: calc(100%/3);
+    margin-bottom: 15px;
+    /* background: red; */
+}
+
+.ele-staff div.img-avatar {
+margin: 0 auto;
+position: absolute;
+width: 97px;
+top: -45px;
+left: 38px;
+}
+.staff{
+    position:relative;
+    background: #2aba8d;
+    margin-top: 56px;
+    height: 250px;
+    margin-left: 10px;
+    color: white;
+    margin-right: 10px;
+    padding-top: 55px;
+    padding-left: 10px;
+}
